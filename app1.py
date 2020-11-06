@@ -6,7 +6,7 @@ from security import authenticate, identity
 from resources.user import UserRegister
 from resources.item import Item, ItemList
 from resources.store import Store, StoreList
-#from db import db
+from db import db
 
 app1 = Flask(__name__)
 app1.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
